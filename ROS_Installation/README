@@ -1,0 +1,7 @@
+
+Guide for installing ROS:
+
+1. bash install.bash
+2. bash init.bash
+3. bash env.bash (if environment variables are correctly set)
+
