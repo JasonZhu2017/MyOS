@@ -1,0 +1,35 @@
+<!-- Package File Template reorganized by gongzheng -->
+
+<package format="2">
+	<name>hello_test</name>
+	<version>1.0.0</version>
+	<description>
+		This is the "hello-world" test programme.
+	</description>
+	<maintainer email="gongzheng01@baidu.com">gongzheng</maintainer>
+	<license>TODO</license>
+
+	<!-- <url type="website">http://</url> -->
+	<author email="gongzheng01@baidu.com">gongzheng</author>
+
+	<!-- This tag specifies that a dependency is a build, export, -->
+	<!-- and execution dependency. This is the most commonly used dependency tag. -->
+	<depend>roscpp</depend>
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<build_depend></build_depend>
+
+	<build_export_depend></build_export_depend>
+
+	<exec_depend></exec_depend>
+
+	<!-- Test Dependencies specify only additional dependencies for unit tests. -->
+	<!-- They should never duplicate any dependencies already mentioned as build -->
+	<!-- or run dependencies.-->
+	<test_depend></test_depend>
+
+	<!-- Documentation Tool Dependencies specify documentation tools -->
+	<!-- which this package needs to generate documentation. -->
+	<doc_depend></doc_depend>
+</package>
