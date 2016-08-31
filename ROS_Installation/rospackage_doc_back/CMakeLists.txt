@@ -8,7 +8,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 
 ####################################################
-## Set the name of the package.                   ## 
+## Set the name of the package.                   ##
 ## (Must be the same as specified in package.xml) ##
 ####################################################
 project(hello_test)
@@ -52,12 +52,12 @@ find_package(catkin REQUIRED COMPONENTS roscpp)
 ###################################
 ## catkin specific configuration ##
 ###################################
-#catkin_package(
+catkin_package(
 #	INCLUDE_DIRS include
 #	LIBRARIES ${PROJECT_NAME}
 #	CATKIN_DEPENDS roscpp nodelet
-#	DEPENDS eigen opencv)
-catkin_package()
+#	DEPENDS eigen opencv
+)
 
 ###########
 ## Build ##
@@ -71,11 +71,11 @@ catkin_package()
 
 
 ##  * Define executable file
-##  * Add target dependencies 
+##  * Add target dependencies
 ##  * Specify libraries for linking
 
-#add_executable(message_program src/main.cpp) 
-add_executable(hello src/hello.cpp) 
+#add_executable(message_program src/main.cpp)
+add_executable(hello src/hello.cpp)
 
 #add_dependencies(message_program ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
