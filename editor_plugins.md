@@ -4,5 +4,6 @@
 * minimap
 * vim-mode-plis
 * ex-mode
+* relative-numbers
 
 ## VSCode
