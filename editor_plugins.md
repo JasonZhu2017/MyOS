@@ -5,6 +5,6 @@
 * vim-mode-plus
 * ex-mode
 * relative-numbers
-* terminal-plus
+* platformio-ide-terminal
 
 ## VSCode
