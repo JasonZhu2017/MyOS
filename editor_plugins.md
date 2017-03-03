@@ -6,5 +6,6 @@
 * ex-mode
 * relative-numbers
 * platformio-ide-terminal
+* file-header
 
 ## VSCode
