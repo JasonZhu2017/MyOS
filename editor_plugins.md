@@ -3,7 +3,7 @@
 * activate-power-mode
 * minimap
 * vim-mode-plus
-* ex-mode
+* activate-power-mode
 * relative-numbers
 * platformio-ide-terminal
 * file-header
