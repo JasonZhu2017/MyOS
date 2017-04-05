@@ -7,5 +7,6 @@
 * relative-numbers
 * platformio-ide-terminal
 * file-header
+* python-nosetests
 
 ## VSCode
